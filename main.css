@@ -6,10 +6,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
- 
+
 #background {
     z-index: -1;
     position: absolute;
@@ -17,15 +17,15 @@ body {
     left: 0;
     top: 75vh;
 }
- 
+
 .main{
     padding: 20px auto;
     -webkit-flex: 1; /* Safari 6.1+ */
-    -ms-flex: 1; /* IE 10 */ 
+    -ms-flex: 1; /* IE 10 */
     flex: 1;
 }
- 
- 
+
+
 #main-illustration {
     position: absolute;
     right: 0;
@@ -132,7 +132,7 @@ body {
     width: 32.3%;
 }
 
-@media screen and (max-width: 1800px) and (min-width: 1365px) {
+@media screen and (max-width: 1500px) and (min-width: 1360px) {
     .about-csi {
         margin-top: 50vh;
     }
@@ -140,7 +140,11 @@ body {
     .chapter-and-more {
         margin-top: 25%;
     }
-    
+    body{
+        background: yellow;
+    }
+
+
 }
 
 
@@ -148,7 +152,7 @@ body {
 
 /* begin Pranshu */
 
-@media screen and (max-width: 1365px) and (min-width: 1317px) {
+@media screen and (max-width: 1360px) and (min-width: 1317px) {
     .about-csi {
         margin-top: 45vh;
     }
@@ -170,4 +174,74 @@ body {
     .launch-giveaway{
             margin-top: 11vh;
     }
+}
+
+/*  End Pranshu  */
+
+/* Begin Akshay */
+@media screen and (min-width: 1500px) {
+    #people-illustration {
+        top: 35vh;
+    }
+    #main-illustration {
+        max-width: 600px;
+    }
+    #background {
+        top: 52vh;
+    }
+    .about-csi {
+        margin-top: 35vh;
+    }
+    .chapter-and-more {
+        margin-top: 15%;
+    }
+    .launch-giveaway{
+            margin-top: 20vh;
+    }
+    body{
+        /* background: red; */
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* #people-illustration {
+        top: 70vh;
+        left: 40vw;
+    }
+    #main-illustration {
+        max-width: 500px;
+    }
+    #background {
+        top: 80vh;
+    }
+    .about-csi {
+        margin-top: 35vh;
+    }
+
+    .launch-giveaway{
+            margin-top: 10vh;
+            width: 50vw;
+            margin-right: 2vh;
+    }
+
+    body {
+        background: orange;
+    }
+    .main-content {
+        width: 50vh;
+        margin-top: 5vh;
+        margin-left: 4vw;
+    } */
+}
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
 }
