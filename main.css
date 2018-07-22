@@ -3,7 +3,7 @@ body {
     margin: 0px;
     border: 0px;
     padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -18,13 +18,12 @@ body {
     top: 75vh;
 }
 
-.main{
+.main {
     padding: 20px auto;
     -webkit-flex: 1; /* Safari 6.1+ */
     -ms-flex: 1; /* IE 10 */
     flex: 1;
 }
-
 
 #main-illustration {
     position: absolute;
@@ -32,11 +31,10 @@ body {
     top: 0;
     max-width: 500px;
     width: 100%;
-    height: auto;;
+    height: auto;
 }
 
-
-#people-illustration{
+#people-illustration {
     z-index: -2;
     position: absolute;
     top: 50vh;
@@ -45,23 +43,21 @@ body {
     height: auto;
 }
 
-
-.launch-giveaway{
+.launch-giveaway {
     float: right;
     width: 35vw;
     margin-right: 7vw;
     margin-top: 7vh;
 }
 
-
-.main-content{
+.main-content {
     margin-top: 10vh;
     margin-left: 7vw;
     width: 30vw;
     letter-spacing: 0.4px;
     text-align: justify;
 }
-.main-content h1{
+.main-content h1 {
     /* text-align: center; */
 }
 
@@ -73,7 +69,7 @@ body {
     font-size: 14px;
     text-align: center;
 }
-.about-csi{
+.about-csi {
     margin-top: 70vh;
     margin-left: 7vw;
     width: 30vw;
@@ -87,12 +83,10 @@ body {
     display: table;
 }
 
-.ala{
-    display:inline-block;
+.ala {
+    display: inline-block;
     vertical-align: 5px;
 }
-
-
 
 /* Tarush */
 
@@ -140,13 +134,10 @@ body {
     .chapter-and-more {
         margin-top: 25%;
     }
-    body{
-        background: yellow;
+    body {
+        /* background: yellow; */
     }
-
-
 }
-
 
 /* End Tarush */
 
@@ -159,8 +150,8 @@ body {
     .chapter-and-more {
         margin-top: 15%;
     }
-    .launch-giveaway{
-            margin-top: 11vh;
+    .launch-giveaway {
+        margin-top: 11vh;
     }
 }
 
@@ -171,8 +162,8 @@ body {
     .chapter-and-more {
         margin-top: 15%;
     }
-    .launch-giveaway{
-            margin-top: 11vh;
+    .launch-giveaway {
+        margin-top: 11vh;
     }
 }
 
@@ -195,15 +186,15 @@ body {
     .chapter-and-more {
         margin-top: 15%;
     }
-    .launch-giveaway{
-            margin-top: 20vh;
+    .launch-giveaway {
+        margin-top: 20vh;
     }
-    body{
+    body {
         /* background: red; */
     }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     /* #people-illustration {
         top: 70vh;
         left: 40vw;
@@ -234,14 +225,152 @@ body {
     } */
 }
 
-
-
 /* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     /* Styles */
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     /* Styles */
+}
+
+
+/* PAVITHRA breakpoint */
+
+@media only screen and (min-width: 1024px) {
+    div.desktop {
+        display: block;
+    }
+    div.small_screen {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    div.small_screen {
+        display: block;
+    }
+    div.desktop {
+        display: none;
+    }
+/* Pavithra CSS */
+
+    div.small_screen {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+    }
+
+    #name,
+    #email {
+        /* height: vw; */
+        padding: 2.5%;
+        width: 80%;
+        margin: 3% 0;
+        border-radius: 2px;
+        background-color: #ffffff;
+        border: solid 1px #666;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        font-weight: 400;
+    }
+
+    .btn {
+        font-size: 14px;
+        width: 85%;
+        border: 0;
+        padding: 3% 0;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        color: white;
+        border-radius: 3px;
+        background-color: #3a41c5;
+        letter-spacing: 0.4px;
+        text-align: center;
+        transition-duration: 0.4s;
+    }
+
+    h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+
+
+    ol {
+        text-align: left;
+    }
+
+    hr {
+        width: 100%;
+        margin: 0 auto;
+        color: #666;
+    }
+
+    .small_screen {
+        align-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .wrap {
+        padding: 0 5%;
+    }
+
+    .form {
+        text-align: center;
+        padding: 0;
+    }
+
+    .image {
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    a {
+        /* font-weight: bold; */
+        padding: 0;
+        color: #000000;
+        text-decoration: none;
+        transition-duration: 0.4s;
+    }
+
+    a:hover {
+        color: #3a41c5;
+    }
+
+    tr {
+        height: 10vw;
+        width: 20vw;
+    }
+
+    td {
+        vertical-align: middle;
+        padding: 3vw;
+    }
+    td img {
+        position: relative;
+        top: 2px;
+    }
+    /* Added fixings */
+    .wrap h1 {
+        letter-spacing: 0.4px;
+    }
+    .wrap p {
+        line-height: 24px;
+    }
+    .wrap #below-submit {
+        font-size: 14px;
+        text-align: center;
+    }
+    .small-hr {
+        width: 90%;
+    }
 }
