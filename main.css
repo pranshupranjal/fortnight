@@ -1,0 +1,82 @@
+html,
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+ 
+#background {
+    z-index: -1;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    top: 75vh;
+}
+ 
+.main{
+    padding: 20px auto;
+    -webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
+}
+ 
+ 
+#main-illustration {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 500px;
+    width: 100%;
+    height: auto;;
+}
+
+#boy-illustration{
+    position: absolute;
+    right: 7vw;
+    top: 145vh;
+    float: right;
+    z-index: -2;
+}
+
+#people-illustration{
+    z-index: -2;
+    position: absolute;
+    top: 50vh;
+    left: 37vw;
+    width: 22%;
+    height: auto;
+}
+
+
+.launch-giveaway{
+    float: right;
+    margin-top: 25vh;
+    width: 35vw;
+    margin-right: 4vw;
+    /* background: yellow; */
+}
+
+.main-content{
+    margin-top: 10vh;
+    margin-left: 4vw;
+    width: 30vw;
+}
+
+.about-csi{
+    margin-top: 70vh;
+    margin-left: 4vw;
+    width: 30vw;
+    text-align: justify;
+    color: white;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
