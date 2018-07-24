@@ -229,48 +229,6 @@ body {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    /* #people-illustration {
-        top: 70vh;
-        left: 40vw;
-    }
-    #main-illustration {
-        max-width: 500px;
-    }
-    #background {
-        top: 80vh;
-    }
-    .about-csi {
-        margin-top: 35vh;
-    }
-
-    .launch-giveaway{
-            margin-top: 10vh;
-            width: 50vw;
-            margin-right: 2vh;
-    }
-
-    body {
-        background: orange;
-    }
-    .main-content {
-        width: 50vh;
-        margin-top: 5vh;
-        margin-left: 4vw;
-    } */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    /* Styles */
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
-}
-
-
 /* PAVITHRA breakpoint */
 
 @media only screen and (min-width: 1138px) {
@@ -310,7 +268,6 @@ body {
 
     #name,
     #email {
-        /* height: vw; */
         padding: 2.5%;
         width: 80%;
         margin: 3% 0;
@@ -376,7 +333,6 @@ body {
     }
 
     a {
-        /* font-weight: bold; */
         padding: 0;
         color: #000000;
         text-decoration: none;
